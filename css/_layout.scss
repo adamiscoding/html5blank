@@ -1,0 +1,49 @@
+// global border-box
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+// clearfix
+.clear {
+    @extend %clearfix;
+}
+
+// island object
+.island {
+    padding: 1em;
+
+    & > * {
+        margin-bottom: 1em;
+    }
+
+    & > *:last-child {
+        margin-bottom: 0;
+    }
+}
+
+// media object
+.media {
+    .img {
+        float: left;
+        margin-right: 0.5em;
+        img {
+            display: block;
+        }
+    }
+
+    .bd {
+        overflow: hidden;
+    }
+}
+
+// vertical center
+.vertical-center {
+    display: table;
+    & > * {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,28 @@
+// adamBlank by adamiscoding
+// Licensed under MIT License
+
+// settings
+@import "_settings.scss";
+
+// vendor:
+@import "_normalize.scss";
+
+// font stacks: 
+@import "_fonts.scss";
+
+// grid
+@import "_grid.scss";
+
+// layout
+@import "_layout.scss";
+
+// mixins
+@import "_mixins.scss"; 
+
+// colors & variables
+@import "_variables.scss";
+
+// breakpoints
+@import "_small.scss";
+@import "_medium.scss";
+@import "_large.scss";
