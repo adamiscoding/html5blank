@@ -7,7 +7,7 @@
 // vendor:
 @import "_normalize.scss";
 
-// font stacks: 
+// font stacks, font face: 
 @import "_fonts.scss";
 
 // grid
@@ -21,6 +21,9 @@
 
 // colors & variables
 @import "_variables.scss";
+
+// typography
+@import "_typography.scss";
 
 // breakpoints
 @import "_small.scss";
