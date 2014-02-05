@@ -5,3 +5,7 @@ Modified to fit my own preferences.
 
 * Author : [Adam Huchla](http://adamiscoding.com)
 
+to run grunt tasks (sass,livereload & more):
+'npm install
+ grunt dev'
+
